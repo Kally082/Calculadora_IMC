@@ -1,0 +1,5 @@
+1 - Altura
+2 - Peso
+3 - Resultado
+4 - Mensagem de erro (caso digite letra/simbolos)
+5 - Botão de limpar
