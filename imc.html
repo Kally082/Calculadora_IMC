@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>IMC</title>
+</head>
+ 
+<body>
+    <header>    
+        <h1>Calculo de IMC</h1>
+    </header>
+ 
+    <main>
+        
+        <label class="entradas"> </br>
+            Altura:
+            <input type="text" id="altura" />&ensp;&ensp;
+            <br><strong id="erro1"></strong>
+        </label></br>
+ 
+        <label class="entradas"> </br>
+            Peso (kg):
+            <input type="text" id="peso" />&ensp;&ensp;
+            <br><strong id="erro2"></strong>
+        </label></br>
+ 
+        <label class="botoes">
+            <input type="button" value="Calcular IMC" id="button" />
+            <input type="button" value="Limpar" id="btReset" />
+        </label>
+    </main>
+ 
+    <div id="balao">
+        <h3 id="resTab"></h3>
+        <h3 id="resIMC"></h3>
+    </div>
+ 
+    <script type="text/javascript" src="imc.js"></script>
+</body>
+ 
+</html>
